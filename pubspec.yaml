@@ -11,11 +11,13 @@ dependencies:
     sdk: flutter
 
   video_player: ^2.9.2
-  ffmpeg_kit_flutter:
-    git:
-      url: https://github.com/mohamedArafa25/ffmpeg-kit.git
-      ref: main
-      path: flutter/flutter
+#  ffmpeg_kit_flutter:
+#    git:
+#      url: https://github.com/mohamedArafa25/ffmpeg-kit.git
+#      ref: main
+#      path: flutter/flutter
+  ffmpeg_kit_flutter_new: ^3.1.0
+
 #  flutter_video_thumbnail_plus: ^1.0.5
   video_thumbnail:
     git:
