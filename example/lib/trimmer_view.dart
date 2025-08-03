@@ -1,13 +1,13 @@
 import 'dart:io';
 
 import 'package:example/preview.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Preview;
 import 'package:video_trimmer/video_trimmer.dart';
 
 class TrimmerView extends StatefulWidget {
   final File file;
 
-  const TrimmerView(this.file, {Key? key}) : super(key: key);
+  const TrimmerView(this.file, {super.key});
   @override
   State<TrimmerView> createState() => _TrimmerViewState();
 }
